@@ -1,0 +1,51 @@
+お疲れ様です。
+私のKubernetes（CKAD）の試験準備と必要な情報を共有させて頂きます。
+
+ 
+
+■環境
+WSL2
+Ubuntu 20.04LTS
+
+ 
+
+https://snowsystem.net/other/windows/wsl2-install/
+
+ 
+
+■勉強方法
+①udemyのコース2個を先に勉強しました。
+　　Kubernetes for the Absolute Beginners-Hands-on
+　　Kubernetes Certified Application Developer(CKAD) with Test
+②下記のエクササイズを何回も練習しました。
+https://github.com/dgkanatsios/CKAD-exercises
+③試験受ける前に試験のSimulatorを受けました。 ※申し込んでスケジュール設定後に表示される
+
+ 
+
+■参考
+下記のサイトはyamlファイルの書き方やコマンドの書き方など参考できるサイトです。※試験でも使えますが一つのブラウザのみ
+https://kubernetes.io/docs/home/　
+★ブラウザのブックマークも重要です。試験には探す時間ないのでほどんどのコマンドができてブックマークもすぐに参考できるような準備が必要です。
+
+ 
+
+■試験申し込みサイト
+https://training.linuxfoundation.org/certification/certified-kubernetes-application-developer-ckad/
+※申し込んでスケジュールが一年以内いつでも調整可能です。
+下記は15%offクーポンです。
+https://devopscube.com/kubernetes-certification-coupon/
+
+ 
+
+■試験情報
+質問：19問
+時間：2時間
+合格点：66点
+満点：100点
+
+ 
+
+不明点があれば、遠慮なく聞いて下さい。
+ 
+以上、宜しくお願い致します。
