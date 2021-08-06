@@ -1,0 +1,11 @@
+apiVersion: v1
+kind: Pod
+metadata: 
+  name: pages-pod
+  labels:
+    app: pages-pod
+    app: pages-app
+spec:
+  containers:
+    - name: pages-app
+      image: htetaungkyawgicjp/pages-repo:v1

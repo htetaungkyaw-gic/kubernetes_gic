@@ -1,0 +1,26 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: pages-deploy
+  labels:
+    name: pages-deploy
+    app: pages-app
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      name: pages-pod
+      app: pages-app
+      
+  template:
+    metadata:
+      name: pages-pod
+      labels:
+        name: pages-pod
+        app: pages-app
+    spec:
+      containers:
+        - name: pages-app
+          image: htetaungkyawgicjp/pages-repo:v1
+          ports:
+            - containerPort: 80
